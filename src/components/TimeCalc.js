@@ -28,11 +28,11 @@ export default function TimeCalc() {
     }
   };
 
-  const handleReset = (e) => {
-    e.preventDefault();
-    setHour("");
-    setMinute("");
-  };
+  // const handleReset = (e) => {
+  //   e.preventDefault();
+  //   setHour("");
+  //   setMinute("");
+  // };
 
   return (
     <>

@@ -15,11 +15,11 @@ export default function TargetCalc() {
     setResultFour(calculation.toFixed(0));
   };
 
-  const handleReset = (e) => {
-    e.preventDefault();
-    setEmployee("");
-    setTarget("");
-  };
+  // const handleReset = (e) => {
+  //   e.preventDefault();
+  //   setEmployee("");
+  //   setTarget("");
+  // };
 
   return (
     <>
