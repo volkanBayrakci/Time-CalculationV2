@@ -82,15 +82,11 @@ export default function TimeCalc() {
         >
           <option>Vardiya Seçiniz</option>
           <option value="8">08:00-16:00</option>
-          <option value="8">08:00-19:00</option>
-          <option value="8">08:00-17:30</option>
+          <option value="16">16:00-00:00</option>
           <option value="7">07:00-15:00</option>
-          <option value="7">07:00-17:30</option>
-          <option value="7">07:00-19:00</option>
           <option value="15">15:00-23:00</option>
           <option value="23">23:00-07:00</option>
           <option value="19">19:00-07:00</option>
-          <option value="16">16:00-00:00</option>
         </select>
       </form>
       <div className="result-container">
