@@ -43,6 +43,10 @@
     background-image: none;
     appearance: none;
     outline: none;
+    background-image:var(--select-image);
+    background-position: right .75rem center;
+    background-repeat: no-repeat;
+    background-size: 16px 12px;
     &:focus{
         background-color: transparent;
         color:var(--primary-color);
@@ -50,7 +54,7 @@
         border-color: var(--main-color);
     }
     option{
-      background-color:#292929;
+      background-color:var(--main-color);
       color:var(--primary-color)
     }
   }
